@@ -13,3 +13,4 @@ ADD sources/_modules/clouder.py /srv/salt/_modules/
 RUN mkdir -p /srv/pillar/containers
 RUN mkdir -p /srv/pillar/bases
 RUN echo "base:" > /srv/pillar/top.sls
+CMD ["true"]
